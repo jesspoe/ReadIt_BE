@@ -24,7 +24,7 @@ class BooksController < ApplicationController
 
    def update
      @book.update(post_params)
-     redirect_to @book
+     render json: @book
    end
 
 
