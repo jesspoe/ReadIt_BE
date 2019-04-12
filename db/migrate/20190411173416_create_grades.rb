@@ -1,7 +1,7 @@
 class CreateGrades < ActiveRecord::Migration[5.2]
   def change
     create_table :grades do |t|
-      t.string :grade
+      t.string :name
 
       t.timestamps
     end
