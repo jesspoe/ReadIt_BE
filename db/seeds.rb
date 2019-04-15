@@ -2,21 +2,21 @@ images = ['http://clipart-library.com/newimages/cute-clip-art-26.jpg','http://cl
    g-svg-dinosaur-clipart.png', 'http://www.misskatecuttables.com/uploads/shopping_cart/10621/large_purple-baby-monster.png', 'https://i.pinimg.com/originals/65/c3/84/65c38478d91b0000cdc450beaf4eb8a3.png','http://diysolarpanelsv.com/images/cute-monkey-clipart-silhouette-21.png', 'https://requestreduce.org/images/cute-valentine-clip-art-23.jpg', 'http://enosart.com/wp-content/uploads/2018/09/summer-ant-svg-scrapbook-cut-file-cute-clipart-files-for-silhouette-intended-for-ant-clipart.
    png', 'http://www.thelockinmovie.com/wp-content/uploads/2018/09/snowman-clipart-images-snowman-winter-svg-scrapbook-cut-file-cute-clipart-files-fo
    r-classroom-clipart.png', 'https://i.pinimg.com/originals/b6/76/27/b67627ff8f7aa289c36e30f05a566059.png', 'https://carwad.net/sites/default/files/cute-balloon-cliparts-125087-3969158.jpg', 'http://www.clipartroo.com/images/90/loving-home-clipart-90415.png', 'http://clipart-library.com/img1/855129.png', 'https://i.pinimg.com/originals/3d/05/1a/3d051a059f95a68bf02e026987ddb9ac.png', 'https://requestreduce.org/images/february-cute-clipart-3.jpg']
+User.create(name: "Jessica", email: "jesspoe@email.com", password: "password")
 
-#
-# Grade.create(name: 'Kindergarten')
-# Grade.create(name: 'First')
-# Grade.create(name: 'Second')
-# Grade.create(name: 'Third')
-#
-# Word.create(word: JSON.generate(['all','am','are','at','ate','be','black','brown','but','came','did','do','eat','four','get','good','have','he','into','like','must','new','no','now','on','our','out','please','pretty','ran','ride','saw','say','she','so','soon','that','there','they','this','too','under','want','was','well','went','what','white','who','will','with','yes']),
-#    grade_id: 1)
-# Word.create(word: JSON.generate([ "after", "again", "an", "any", "as", "ask", "by", "could", "every", "fly", "from", "give", "going", "had", "has", "her", "him", "his", "how", "just", "know", "let", "live", "may", "of", "old", "once", "open", "over", "put", "round", "some", "stop", "take", "thank", "them", "then", "think", "walk", "were", "when"]),
-#    grade_id: 2)
-# Word.create(word: JSON.generate(["always", "around", "because", "been", "before", "best", "both", "buy", "call", "cold", "does", "fast", "first", "five", "found", "gave", "goes", "green", "its", "made", "many", "off", "or", "pull", "read", "right", "sing", "sit", "sleep", "tell", "their", "these", "those", "upon", "us", "use", "very", "wash", "which", "why", "wish", "work", "would", "write", "your"]),
-#    grade_id: 3)
-# Word.create(word: JSON.generate(["about", "better", "bring", "carry", "clean", "cut", "done", "draw", "drink", "eight", "fall", "far", "full", "got", "grow", "hold", "hot", "hurt", "keep", "kind", "laugh", "light", "long", "much", "myself", "never", "only", "own", "pick", "seven", "shall", "show", "six", "small", "start", "ten", "today", "together", "try", "warm"]),
-   # grade_id: 4)
+Grade.create(name: 'Kindergarten')
+Grade.create(name: 'First')
+Grade.create(name: 'Second')
+Grade.create(name: 'Third')
+
+Word.create(word: JSON.generate(['all','am','are','at','ate','be','black','brown','but','came','did','do','eat','four','get','good','have','he','into','like','must','new','no','now','on','our','out','please','pretty','ran','ride','saw','say','she','so','soon','that','there','they','this','too','under','want','was','well','went','what','white','who','will','with','yes']),
+   grade_id: 1)
+Word.create(word: JSON.generate([ "after", "again", "an", "any", "as", "ask", "by", "could", "every", "fly", "from", "give", "going", "had", "has", "her", "him", "his", "how", "just", "know", "let", "live", "may", "of", "old", "once", "open", "over", "put", "round", "some", "stop", "take", "thank", "them", "then", "think", "walk", "were", "when"]),
+   grade_id: 2)
+Word.create(word: JSON.generate(["always", "around", "because", "been", "before", "best", "both", "buy", "call", "cold", "does", "fast", "first", "five", "found", "gave", "goes", "green", "its", "made", "many", "off", "or", "pull", "read", "right", "sing", "sit", "sleep", "tell", "their", "these", "those", "upon", "us", "use", "very", "wash", "which", "why", "wish", "work", "would", "write", "your"]),
+   grade_id: 3)
+Word.create(word: JSON.generate(["about", "better", "bring", "carry", "clean", "cut", "done", "draw", "drink", "eight", "fall", "far", "full", "got", "grow", "hold", "hot", "hurt", "keep", "kind", "laugh", "light", "long", "much", "myself", "never", "only", "own", "pick", "seven", "shall", "show", "six", "small", "start", "ten", "today", "together", "try", "warm"]),
+   grade_id: 4)
 
 Book.create(title: 'Facing Fears',
    paragraph: JSON.generate(['Little drops of water, Little grains of sand, Make the mighty ocean And the pleasant land.', 'Thus the little minutes, Humble though they be, Make the mighty ages Of eternity.',' So our little errors Lead the soul away From the path of virtue Far in sin to stray.', 'Little deeds of kindness, Little words of love, Help to make earth happy Like the heaven above.']),

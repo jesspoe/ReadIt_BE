@@ -7,20 +7,15 @@ class BooksController < ApplicationController
      render json: @books
    end
 
-   def show
-   end
-
-   def new
-     @book = Book.new
-   end
 
    def create
     @book = Book.create(book_params)
    render json: @book
   end
 
-   def edit
-   end
+  def show
+    render json: @book
+    end
 
    def update
      @book.update(post_params)
