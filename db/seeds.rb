@@ -3,6 +3,8 @@ images = ['http://clipart-library.com/newimages/cute-clip-art-26.jpg','http://cl
    png', 'http://www.thelockinmovie.com/wp-content/uploads/2018/09/snowman-clipart-images-snowman-winter-svg-scrapbook-cut-file-cute-clipart-files-fo
    r-classroom-clipart.png', 'https://i.pinimg.com/originals/b6/76/27/b67627ff8f7aa289c36e30f05a566059.png', 'https://carwad.net/sites/default/files/cute-balloon-cliparts-125087-3969158.jpg', 'http://www.clipartroo.com/images/90/loving-home-clipart-90415.png', 'http://clipart-library.com/img1/855129.png', 'https://i.pinimg.com/originals/3d/05/1a/3d051a059f95a68bf02e026987ddb9ac.png', 'https://requestreduce.org/images/february-cute-clipart-3.jpg']
 User.create(username: "jrp")
+User.create(username: "KM")
+
 
 Grade.create(name: 'Kindergarten')
 Grade.create(name: 'First')
@@ -22,7 +24,7 @@ Book.create(title: 'Facing Fears',
    paragraph: 'Little drops of water, Little grains of sand, Make the mighty ocean And the pleasant land. Thus the little minutes, Humble though they be, Make the mighty ages Of eternity. So our little errors Lead the soul away From the path of virtue Far in sin to stray. Little deeds of kindness, Little words of love, Help to make earth happy Like the heaven above.',
    author: 'Julia Fletcher Carney',
    grade_id: 4,
-   user_id: 1,
+   user_id: 2,
    image: images[0])
 
 Book.create(
@@ -30,7 +32,7 @@ Book.create(
    paragraph: 'Once there was a little boy, With curly hair and pleasant eye— A boy who always told the truth, And never, never told a lie. And when he trotted off to school, The children all about would cry, "There goes the curly-headed boy— The boy that never tells a lie." And everybody loved him so, Because he always told the truth, That every day, as he grew up, \'Twas said, "There goes the honest youth." And when the people that stood near Would turn to ask the reason why, The answer would be always this: "Because he never tells a lie."',
    author: 'Anonymous',
    grade_id: 4,
-   user_id: 1,
+   user_id: 2,
    image: images[1])
 
 Book.create(
@@ -46,7 +48,7 @@ Book.create(
    paragraph: 'I think that I shall never see A poem lovely as a tree. A tree whose hungry mouth is prest Against the sweet earth’s flowing breast; A tree that looks at God all day, And lifts her leafy arms to pray; A tree that may in summer wear A nest of robins in her hair; Upon whose bosom snow has lain; Who intimately lives with rain. Poems are made by fools like me, But only God can make a tree.',
    author: 'Joyce Kilmer',
    grade_id: 4,
-   user_id: 1,
+   user_id: 2,
    image: images[3])
 
 Book.create(
@@ -62,7 +64,7 @@ Book.create(
    paragraph: 'When I was One, I had just begun. When I was Two, I was nearly new. When I was Three I was hardly me. When I was Four, I was not much more. When I was Five, I was just alive. But now I am Six, I\'m as clever as clever, So I think I\'ll be six now for ever and ever.',
    author: 'A. A. Milne',
    grade_id: 3,
-   user_id: 1,
+   user_id: 2,
    image: images[5])
 
 Book.create(
@@ -78,7 +80,7 @@ Book.create(
    paragraph: 'I like myself the way I am. I’m really glad I’m me. In fact, I’m sure there’s no one else on earth I’d rather be. I’d rather not be someone else. I wouldn’t want to switch, unless they were more beautiful, or powerful, or rich. I only want to be myself. To change would just be wrong, except if they were super smart, or muscular and strong. Unless they were more talented, or glamorous, or tall, or popular, or interesting, I’d never change at all. Except if they were famous or had won the lottery, I’d like to stay the way I am. I’m glad to just be me.',
    author: 'Kenn Nesbitt',
    grade_id: 3,
-   user_id: 1,
+   user_id: 2,
    image: images[7])
 
 Book.create(
@@ -120,7 +122,7 @@ Book.create(
    paragraph: "Yellow is a star. Yellow is the Sun. Yellow is the moon, when the day is done.",
    author: "Anonymous",
    grade_id: 1,
-   user_id: 1,
+   user_id: 2,
    image: images[12])
 
 Book.create(
@@ -152,7 +154,7 @@ Book.create(
    paragraph: "Ladybug! Ladybug! Fly away home. Your house is on fire. And your children all gone. All except one, And that's little Ann, For she crept under The frying pan.",
    author: "Anonymous",
    grade_id: 2,
-   user_id: 1,
+   user_id: 2,
    image: images[16])
 
 Book.create(
@@ -168,7 +170,7 @@ Book.create(
    paragraph: "There was a man who coughed a cough, a cough so strong his head fell off. His head fell off. It hit the ground, It hit the ground and rolled around and rolled around and rolled away, away into a field of hay a field of hay that caused a wheeze, a wheeze that turned into a sneeze a sneeze he sneezed from dusk till dawn. At dawn, he sneezed his head back on.",
    author: "Anonymous",
    grade_id: 2,
-   user_id: 1,
+   user_id: 2,
    image: images[18])
 
 Book.create(
@@ -192,5 +194,5 @@ Book.create(
    paragraph: "Today I managed something that I’ve never done before. I turned in this week’s spelling quiz and got a perfect score. Although my score was perfect it appears I’m not too bright. I got a perfect zero; not a single answer right.",
    author: "Kenn Nesbitt",
    grade_id: 2,
-   user_id: 1,
+   user_id: 2,
    image: images[21])
