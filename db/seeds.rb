@@ -109,7 +109,7 @@ Book.create(
 
 Book.create(
    title: 'Pam and Sam',
-   paragraph: "Pam the ram likes to eat ham, with Sam the ram" "who likes to eat jam! Sam the ram, gives jam to Pam and Pam the ram, gives ham to Sam!",
+   paragraph: "Pam the ram likes to eat ham, with Sam the ram who likes to eat jam! Sam the ram, gives jam to Pam and Pam the ram, gives ham to Sam!",
    author: "Anonymous",
    grade_id: 1,
    user_id: 1,
