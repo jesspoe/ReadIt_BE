@@ -9,12 +9,16 @@ class BooksController < ApplicationController
 
 
    def create
-    @book = Book.create(book_params)
-   render json: @book
+    book = Book.create(book_params)
+    render json: book
   end
 
   def show
     render json: @book
+    end
+
+    def destroy
+      Book.destroy(params[:id])
     end
 
    def update
@@ -25,8 +29,8 @@ class BooksController < ApplicationController
 
    private
 
-     def post_params
-       params.require(:book).permit(:grade_id, :title, :img, :paragraph, :user_id)
+     def book_params
+       params.require(:book).permit(:grade_id, :title, :image, :paragraph, :author, :user_id)
      end
 
      def set_book

@@ -2,7 +2,7 @@ images = ['http://clipart-library.com/newimages/cute-clip-art-26.jpg','http://cl
    g-svg-dinosaur-clipart.png', 'http://www.misskatecuttables.com/uploads/shopping_cart/10621/large_purple-baby-monster.png', 'https://i.pinimg.com/originals/65/c3/84/65c38478d91b0000cdc450beaf4eb8a3.png','http://diysolarpanelsv.com/images/cute-monkey-clipart-silhouette-21.png', 'https://requestreduce.org/images/cute-valentine-clip-art-23.jpg', 'http://enosart.com/wp-content/uploads/2018/09/summer-ant-svg-scrapbook-cut-file-cute-clipart-files-for-silhouette-intended-for-ant-clipart.
    png', 'http://www.thelockinmovie.com/wp-content/uploads/2018/09/snowman-clipart-images-snowman-winter-svg-scrapbook-cut-file-cute-clipart-files-fo
    r-classroom-clipart.png', 'https://i.pinimg.com/originals/b6/76/27/b67627ff8f7aa289c36e30f05a566059.png', 'https://carwad.net/sites/default/files/cute-balloon-cliparts-125087-3969158.jpg', 'http://www.clipartroo.com/images/90/loving-home-clipart-90415.png', 'http://clipart-library.com/img1/855129.png', 'https://i.pinimg.com/originals/3d/05/1a/3d051a059f95a68bf02e026987ddb9ac.png', 'https://requestreduce.org/images/february-cute-clipart-3.jpg']
-User.create(name: "Jessica", email: "jesspoe@email.com", password: "password")
+User.create(username: "jrp")
 
 Grade.create(name: 'Kindergarten')
 Grade.create(name: 'First')
