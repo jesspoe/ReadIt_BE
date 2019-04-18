@@ -1,9 +1,11 @@
-images = ['http://clipart-library.com/newimages/cute-clip-art-26.jpg','http://clipart-library.com/img1/1410095.png', 'http://clipart-library.com/data_images/45406.png','http://worldartsme.com/images/cute-mushroom-clipart-1.jpg', 'http://worldartsme.com/images/cute-watermelon-clipart-1.jpg', 'http://clipart-library.com/img/1709922.png', 'http://clipart-library.com/img/1073128.png', 'https://i.pinimg.com/originals/2a/c8/46/2ac84621f63c816b9ac0d70b9451ac20.png', 'http://worldartsme.com/images/cute-starfish-clipart-1.jpg', 'http://www.thelockinmovie.com/wp-content/uploads/2018/09/free-puppy-clipart-cute-puppy-clipart-puppy-svg-cutting-file-puppy-svg-cut-file-do
-   g-svg-dinosaur-clipart.png', 'http://www.misskatecuttables.com/uploads/shopping_cart/10621/large_purple-baby-monster.png', 'https://i.pinimg.com/originals/65/c3/84/65c38478d91b0000cdc450beaf4eb8a3.png','http://diysolarpanelsv.com/images/cute-monkey-clipart-silhouette-21.png', 'https://requestreduce.org/images/cute-valentine-clip-art-23.jpg', 'http://enosart.com/wp-content/uploads/2018/09/summer-ant-svg-scrapbook-cut-file-cute-clipart-files-for-silhouette-intended-for-ant-clipart.
-   png', 'http://www.thelockinmovie.com/wp-content/uploads/2018/09/snowman-clipart-images-snowman-winter-svg-scrapbook-cut-file-cute-clipart-files-fo
-   r-classroom-clipart.png', 'https://i.pinimg.com/originals/b6/76/27/b67627ff8f7aa289c36e30f05a566059.png', 'https://carwad.net/sites/default/files/cute-balloon-cliparts-125087-3969158.jpg', 'http://www.clipartroo.com/images/90/loving-home-clipart-90415.png', 'http://clipart-library.com/img1/855129.png', 'https://i.pinimg.com/originals/3d/05/1a/3d051a059f95a68bf02e026987ddb9ac.png', 'https://requestreduce.org/images/february-cute-clipart-3.jpg']
-User.create(username: "jrp")
-User.create(username: "KM")
+images = ['http://clipart-library.com/newimages/cute-clip-art-26.jpg','http://clipart-library.com/img1/1410095.png', 'http://clipart-library.com/data_images/45406.png','http://worldartsme.com/images/cute-mushroom-clipart-1.jpg', 'http://clipart-library.com/img/1709922.png', 'http://clipart-library.com/img/1073128.png', 'https://i.pinimg.com/originals/2a/c8/46/2ac84621f63c816b9ac0d70b9451ac20.png', 'http://worldartsme.com/images/cute-starfish-clipart-1.jpg',
+  'http://www.misskatecuttables.com/uploads/shopping_cart/10621/large_purple-baby-monster.png','http://diysolarpanelsv.com/images/cute-monkey-clipart-silhouette-21.png','https://i.pinimg.com/originals/b6/76/27/b67627ff8f7aa289c36e30f05a566059.png', 'http://www.clipartroo.com/images/90/loving-home-clipart-90415.png', 'http://clipart-library.com/img1/855129.png', 'http://images.clipartpanda.com/clipart-lion-lion7.png', 'https://i.pinimg.com/originals/11/f4/9a/11f49ab3da023607675b9ce85b5248d7.png', 'https://dumielauxepices.net/sites/default/files/bumblebee-clipart-silhouette-873380-1258744.png', 'http://images.clipartpanda.com/clipart-etc-zebra4.png', 'http://hanatemplate.com/images/cute-flower-clipart-7.png','http://clipart-library.com/image_gallery/244393.png', 'http://al-taiclub.com/images/caterpillar-bug-clipart-18.png', 'https://sitejerk.com/images/summer-clipart-transparent-7.png', 'https://cdn.clipart.email/c45c5d781ebbc7ba57adef3698294a4f_cute-pencil-school-svg-scrapbook-cut-file-cute-clipart-files-for-_432-432.png',
+    'https://webstockreview.net/images/backhoe-clipart-trackhoe-2.png', 'https://sitejerk.com/images/palm-tree-clip-art-transparent-background-1.png', 'https://ya-webdesign.com/images/earth-clipart-airplane-15.png', 'https://requestreduce.org/images/jellyfish-clipart-png-transparent-background-2.jpg','https://i.pinimg.com/originals/dc/b8/5c/dcb85c9a1e8c0f696ca29237bd31850a.png', 'https://cdn.clipart.email/4b5daae7f50bf7c62786ea73ead1f2be_beehive-svg-scrapbook-cut-file-cute-clipart-files-for-silhouette-_432-432.png', 'https://longfordpc.com/images/sombrero-clipart-margarita-5.png', 'https://requestreduce.org/images/free-svg-clipart-25.jpg', 'http://clipart-library.com/data_images/606984.png']
+
+
+User.create(username: "Jessica")
+User.create(username: "Kevin")
+User.create(username: "Sally")
 
 
 Grade.create(name: 'Kindergarten')
@@ -21,7 +23,7 @@ Word.create(word: JSON.generate(["about", "better", "bring", "carry", "clean", "
    grade_id: 4)
 
 Book.create(title: 'Facing Fears',
-   paragraph: 'Little drops of water, Little grains of sand, Make the mighty ocean And the pleasant land. Thus the little minutes, Humble though they be, Make the mighty ages Of eternity. So our little errors Lead the soul away From the path of virtue Far in sin to stray. Little deeds of kindness, Little words of love, Help to make earth happy Like the heaven above.',
+   paragraph: 'Little drops of water, Little grains of sand, Make the mighty clean ocean And the pleasant land. Thus the little minutes, Humble though they be, Make the mighty ages of eternity. So our little errors Lead the light away From the path of virtue Far in myself to stray. Little deeds of kindness, Little words of love, Help to make earth happy Like the clouds above.',
    author: 'Julia Fletcher Carney',
    grade_id: 4,
    user_id: 2,
@@ -196,3 +198,11 @@ Book.create(
    grade_id: 2,
    user_id: 2,
    image: images[21])
+
+   Book.create(
+   title: 'Water',
+   paragraph: "It is important to drink eight glasses of water especially if the weather outside is much hotter! If the weather is simply warm, you should still drink eight glasses of water.",
+   author: "Jessica Poe",
+   grade_id: 4,
+   user_id: 1,
+   image: images[22])
