@@ -18,10 +18,11 @@ class BooksController < ApplicationController
 
     def destroy
       Book.destroy(params[:id])
+      render json: @books
     end
 
    def update
-     @book.update(post_params)
+     @book.update(book_params)
      render json: @book
    end
 
