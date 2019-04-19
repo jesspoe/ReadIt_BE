@@ -1,7 +1,8 @@
 class GradesController < ApplicationController
 
-  def index 
-    @grades = Grade.all 
+  def index
+    @grades = Grade.all
     render json: @grades
+end 
 end
 end 
