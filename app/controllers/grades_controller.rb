@@ -4,5 +4,4 @@ class GradesController < ApplicationController
     @grades = Grade.all
     render json: @grades
 end 
-end
 end 
